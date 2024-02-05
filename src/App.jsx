@@ -7,7 +7,7 @@ function App() {
   let {calVal, setCalVal}=useState("");
   return (
     <div className={styles.calculator}>
-        <Display/>
+        <Display displayValue={calVal}/>
         <ButtonsContainer/>
     </div>
   )
